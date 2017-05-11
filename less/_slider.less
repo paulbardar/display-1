@@ -1,0 +1,61 @@
+.ba-slider {
+	max-height: 525px;
+	background: green url("../img/slider/slider1/slider-bg.jpg") no-repeat 50%;
+	background-size: cover;
+}
+.ba-slide__image {
+	img {
+		margin: 0 auto;
+		margin-top: 100px;
+	}
+
+}
+.ba-slider__projects {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	.ba-slide__img {
+		outline: none;
+		img {
+			padding-left: 20px;
+		}
+	}
+	.slick-slide:not(.slick-center) {
+		opacity: 0.5;
+	}
+}
+.ba-slider__description {
+	margin: 0 auto;
+	max-width: 540px;
+	padding: 0 30px;
+	.ba-slide__descr {
+		text-align: center;
+		outline: none;
+		h3 {
+			font-size: 18px;
+			color: #8A8888;
+			text-transform: uppercase;
+		}
+	}
+	.slick-arrow {
+		position: absolute;
+		background: none;
+		background: no-repeat 50%;
+		border: none;
+		top: 50%;
+		z-index: 2;
+		font-size: 0;
+		width: 25px;
+		height: 30px;
+		outline: none;
+
+	}
+	.slick-prev {
+		left: 0;
+		background-image: url(../img/home/righr-arrow.png);
+		transform: rotate(180deg);
+	}
+	.slick-next {
+		right: 0;
+		background-image: url(../img/home/righr-arrow.png);
+	}
+}
